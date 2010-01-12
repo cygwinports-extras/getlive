@@ -1,5 +1,5 @@
 category: Mail
-requires: perl
+requires: curl perl
 sdesc: "Hotmail Live mail fetcher"
 ldesc: "Fetches your Hotmail Live mail such that it can be stored in a 
 local mailbox or further processed via procmail-like mail filters."

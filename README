@@ -4,7 +4,8 @@ Fetches your Hotmail Live mail such that it can be stored in a local
 mailbox or further processed via procmail-like mail filters.
 
 Runtime requirements:
-  perl-5.10.0-4
+  curl
+  perl
 
 Canonical website:
   http://sourceforge.net/projects/getlive/
@@ -15,28 +16,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack getlive-0.57-X-src.tar.bz2
+  unpack getlive-0.58-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./getlive-0.57-X.cygport all
+  cygport ./getlive-0.58-X.cygport all
 
 This will create:
-  /usr/src/getlive-0.57-X-src.tar.bz2
-  /usr/src/getlive-0.57-X.tar.bz2
+  /usr/src/getlive-0.58-X-src.tar.bz2
+  /usr/src/getlive-0.58-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/GetLive
-  /usr/share/doc/getlive-0.57/ChangeLog
-  /usr/share/doc/getlive-0.57/LICENSE
-  /usr/share/doc/getlive-0.57/Manual
-
-------------------
-
 Port Notes:
+
+----- version 0.58-1 -----
+Update to latest CVS checkout.
+Includes patch to use the latest Mode by default.
 
 ----- version 0.57-1 -----
 Version bump.

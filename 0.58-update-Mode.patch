@@ -1,0 +1,26 @@
+--- origsrc/GetLive/GetLive.pl	2009-09-27 08:44:03.000000000 -0500
++++ src/GetLive/GetLive.pl	2010-01-12 12:59:48.005738500 -0600
+@@ -81,7 +81,7 @@ my $MoveToFolder            = "";       
+ 
+ my $BreakOnAlreadyDownloaded = 0;
+ 
+-my $Mode                    = "200809";
++my $Mode                    = "200909";
+ 
+ # Quirk. MS generates unended <pre> tags. Hope this is a temporary weakness in their mind.
+ # (Hope makes living, we say in Dutch ...)
+--- origsrc/GetLive/Manual	2009-09-27 08:11:26.000000000 -0500
++++ src/GetLive/Manual	2010-01-12 12:59:00.154001500 -0600
+@@ -35,9 +35,9 @@ Following are the possible options :
+                         this configuration file.
+       Domain          = YourHotmailDomain (default 'hotmail.com', basically
+                         what's after the @ in your address)
+-      Mode            = 200809 (default) or 200810.
+-                        200810 needs to be incorporated for changes that
+-                        are rolled out as of october 2008.
++      Mode            = 200909 (default), 200902, 200810 or 200809.
++                        200909 needs to be incorporated for changes that
++                        are rolled out as of September 2009.
+       Proxy           = ProxyServer if you're behind one.
+       ProxyAuth       = ProxyPassword if you're behind one with password. 
+       Downloaded      = SomeFileName (it keeps track of all id's of messages
