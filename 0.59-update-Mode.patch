@@ -1,0 +1,11 @@
+--- origsrc/GetLive_0_59/GetLive.pl	2010-03-13 09:28:22.000000000 -0600
++++ src/GetLive_0_59/GetLive.pl	2010-06-14 18:59:02.086382100 -0500
+@@ -81,7 +81,7 @@ my $MoveToFolder            = "";
+ 
+ my $BreakOnAlreadyDownloaded = 0;
+ 
+-my $Mode                    = "200809";
++my $Mode                    = "201003";
+ 
+ # Quirk. MS generates unended <pre> tags. Hope this is a temporary weakness in their mind.
+ # (Hope makes living, we say in Dutch ...)
