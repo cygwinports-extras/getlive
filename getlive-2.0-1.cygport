@@ -1,13 +1,7 @@
-#CVS_URI=":pserver:anonymous@getlive.cvs.sourceforge.net:/cvsroot/getlive"
-#CVS_MODULE="GetLive"
-#CVS_DATE=20091006
-#inherit cvs
-
 DESCRIPTION="Hotmail Live mail fetcher"
 HOMEPAGE="http://sourceforge.net/projects/getlive/"
 SRC_URI="mirror://sourceforge/${PN}/GetLive_${PV//./_}.tgz"
 SRC_DIR="GetLive_${PV//./_}"
-PATCH_URI="0.59-update-Mode.patch"
 
 src_compile() { :; }
 

@@ -16,19 +16,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack getlive-0.59-X-src.tar.bz2
+  unpack getlive-2.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./getlive-0.59-X.cygport all
+  cygport ./getlive-2.0-X.cygport all
 
 This will create:
-  /usr/src/getlive-0.59-X-src.tar.bz2
-  /usr/src/getlive-0.59-X.tar.bz2
+  /usr/src/getlive-2.0-X-src.tar.bz2
+  /usr/src/getlive-2.0-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.0-1 -----
+Version bump for August 2010 Hotmail changes.
 
 ----- version 0.59-1 -----
 Version bump.
